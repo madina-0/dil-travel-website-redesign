@@ -62,7 +62,10 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
         purple: {
-          light: "hsl(var(--purple-light))",
+          vivid: "hsl(var(--purple-vivid))",
+          orchid: "hsl(var(--purple-orchid))",
+          mauve: "hsl(var(--purple-mauve))",
+          lavender: "hsl(var(--purple-lavender))",
           soft: "hsl(var(--purple-soft))",
         },
       },

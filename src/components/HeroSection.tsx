@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Star } from "lucide-react";
-import heroImage from "@/assets/hero-santorini.jpg";
+import heroImage from "@/assets/hero-nature.jpg";
 
 const HeroSection = () => {
   const scrollToSection = (href: string) => {
@@ -67,10 +67,10 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in" style={{ animationDelay: "0.3s" }}>
             <Button
               size="lg"
-              onClick={() => scrollToSection("#packages")}
+              onClick={() => scrollToSection("#services")}
               className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-full shadow-hover transition-all duration-300 hover:scale-105"
             >
-              Explore Tours
+              Explore Services
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button

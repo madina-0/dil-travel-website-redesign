@@ -17,7 +17,6 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
-    { name: "Packages", href: "#packages" },
     { name: "Services", href: "#services" },
     { name: "Contact", href: "#contact" },
   ];
@@ -70,10 +69,10 @@ const Navbar = () => {
 
           <div className="hidden lg:block">
             <Button
-              onClick={() => scrollToSection("#packages")}
+              onClick={() => scrollToSection("#contact")}
               className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-full px-6 shadow-soft hover:shadow-hover transition-all duration-300"
             >
-              Book Now
+              Contact Us
             </Button>
           </div>
 
@@ -99,10 +98,10 @@ const Navbar = () => {
               </button>
             ))}
             <Button
-              onClick={() => scrollToSection("#packages")}
+              onClick={() => scrollToSection("#contact")}
               className="w-full mt-4 bg-primary hover:bg-primary/90 text-primary-foreground rounded-full"
             >
-              Book Now
+              Contact Us
             </Button>
           </div>
         )}
