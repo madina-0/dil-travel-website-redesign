@@ -101,7 +101,7 @@ const ServicesSection = () => {
             <Button
               size="lg"
               onClick={scrollToContact}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 rounded-full transition-all duration-300 hover:scale-105"
             >
               Get a Free Quote
             </Button>

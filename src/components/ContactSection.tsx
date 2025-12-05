@@ -134,7 +134,7 @@ const ContactSection = () => {
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full bg-accent hover:bg-accent/90 text-accent-foreground"
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground rounded-full"
                 >
                   Send Message
                   <Send className="ml-2 w-4 h-4" />
