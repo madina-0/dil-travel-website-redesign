@@ -1,5 +1,4 @@
 import { Plane, Hotel, Globe, Map, Camera, Compass } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const services = [
   {
@@ -41,13 +40,6 @@ const services = [
 ];
 
 const ServicesSection = () => {
-  const scrollToContact = () => {
-    const element = document.querySelector("#contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section id="services" className="py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4 lg:px-8">
@@ -96,16 +88,6 @@ const ServicesSection = () => {
             ))}
           </div>
 
-          {/* CTA */}
-          <div className="text-center mt-12">
-            <Button
-              size="lg"
-              onClick={scrollToContact}
-              className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 rounded-full transition-all duration-300 hover:scale-105"
-            >
-              Get a Free Quote
-            </Button>
-          </div>
         </div>
       </div>
     </section>
