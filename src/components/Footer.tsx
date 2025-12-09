@@ -40,7 +40,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-foreground text-primary-foreground">
-      <div className="container mx-auto px-4 lg:px-8 py-16">
+      <div className="container mx-auto px-4 lg:px-8 py-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
             {/* Brand */}
@@ -121,7 +121,7 @@ const Footer = () => {
           </div>
 
           {/* Bottom Bar */}
-          <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center">
+          <div className="border-t border-primary-foreground/10 mt-8 pt-6 text-center">
             <p className="text-primary-foreground/60 text-sm">
               © {new Date().getFullYear()} Dil Travel — All Rights Reserved
             </p>

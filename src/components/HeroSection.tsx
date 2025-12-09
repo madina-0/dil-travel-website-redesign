@@ -54,12 +54,12 @@ const HeroSection = () => {
             </span>
           </div>
 
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-card mb-6 animate-fade-in leading-tight" style={{ animationDelay: "0.1s" }}>
+          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in leading-tight" style={{ animationDelay: "0.1s" }}>
             Explore the World with{" "}
             <span className="text-primary">Dil Travel</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-card/90 mb-10 max-w-xl leading-relaxed animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <p className="text-lg md:text-xl text-white/90 mb-10 max-w-xl leading-relaxed animate-fade-in" style={{ animationDelay: "0.2s" }}>
             Discover unforgettable destinations, create lasting memories, and experience
             personalized travel adventures crafted just for you.
           </p>
